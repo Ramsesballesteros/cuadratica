@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main {
-    // datos a procesar
+    // aqui se muestran las variables a utilizar para calcular la distancia
     double x1, y2, x2, y1,d;
     cout<<"programa para calcular la distancia"<<endl;
     cout<<"Autor: Ramses Ballesteros Diaz"<<endl;
@@ -16,10 +16,10 @@ int main {
     cin>>y2;
     cout<<endl;
 
-    // proceso de los datos
+    // formula general para calcular la distancia con los datos ya incertados 
     d=sqrt( (x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))
 
-    // resultado de la formula 
+    // resultado despues de seguir todo el proceso  
     cout<<"la distancia entre los dos puntos es: "<<d<<endl;
 
 
